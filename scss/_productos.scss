@@ -1,0 +1,21 @@
+.prod{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    div{
+        border: 10px;
+        padding: 10px;
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius: 5px;
+            filter: brightness(85%);
+            transition: 1s;
+            &:hover{
+                filter: brightness(110%);
+                transform: scale(1.1);
+            }
+        }
+    }
+}

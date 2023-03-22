@@ -1,0 +1,28 @@
+.titulo{    
+    background-color: rgb(119, 119, 119);
+    .titulo-imagen{
+        text-align: center;
+        background-color: rgb(119, 119, 119);
+    }
+}
+.navbar{
+   background-color: rosybrown;
+}
+.color{
+color: rgb(53, 51, 51);
+    &:hover{
+        color: rosybrown;
+        background-color: rgb(70, 64, 64);
+        border-radius: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+}}
+.btn-color{
+    color:rgb(15, 15, 15);
+    border-color: rgb(119, 119, 119);
+    &:hover{
+        border-bottom-color: green;
+        color: rosybrown;
+        background-color: rgb(53, 51, 51) ;
+    }
+}

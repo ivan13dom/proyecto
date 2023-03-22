@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:  rgb(255, 255, 255);
+}
+@import "head";
+@import "index";
+@import "footer"; 
+@import "nosotros";
+@import "preguntas";
+@import "prodcutos";
+@import "form";

@@ -1,0 +1,71 @@
+.intro {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 2px;
+    .imagen{
+        width: 100%;
+        height: 100%;
+    }
+    div{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .descripcion{
+        text-align:center;
+        font-size: 1.5rem;
+        font-family: 'Oxygen', sans-serif;
+        color: rgb(0, 0, 0);
+        text-shadow: 20px 20px 20px;
+}}
+
+.nosotros{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .imagena{
+        padding: 40px;
+        width: 50%;
+        img{
+            width: 500px;
+            height: 500px;
+            border-radius: 5px;
+            box-shadow: 10px 10px 10px rgb(88, 85, 85);
+            }
+        }
+    .parrafoa{
+        font-size: 1.5rem;
+        padding: 30px;
+        h2{
+            text-align: center;
+        }
+        p{
+            background-color: aliceblue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    }
+}
+.productos{
+    h2{
+    text-align: center;
+    }
+    .combos{
+        text-align: center;
+        .c{
+            text-align: center;
+            display: inline;
+            img{
+                margin: 20px;
+                padding: 5px;
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}
